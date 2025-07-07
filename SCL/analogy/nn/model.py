@@ -95,7 +95,7 @@ class Model(nn.Module):
 
         self.visual_inputs = visual_inputs
 
-        breakpoint()
+        #breakpoint()
 
         if visual_inputs:
             self.v2s = Visual2Symbolic(
